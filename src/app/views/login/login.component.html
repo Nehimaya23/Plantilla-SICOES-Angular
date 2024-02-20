@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/assets/images/sicoes.ico">
+    <title>SICOES | DICSPS | Login</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <img width="60%" src="/src/assets/images/sicoes.png" alt="align-items-rigth">
+                <h1>Crear Cuenta</h1>
+                <span>Utiliza tu correo para iniciar </span>
+                <input  placeholder="Nombre">
+                <input  placeholder="Correo">
+                <input placeholder="Contrseña">
+                <button><a href="./InfoTramites.html" >Crear Usuario</a></button>
+                
+            </form>
+        </div>
+
+        <div class="form-container sign-in">
+            <form>
+                <img width="60%" src="/src/assets/images/sicoes.png" alt="align-items-rigth">
+                <h1>Iniciar Sesión</h1>
+                <span>Utiliza tu correo para iniciar</span>
+                <input type="email" placeholder="Correo">
+                <input type="password" placeholder="Contrseña">
+                
+                <button><a href="./InfoTramites.html" >Iniciar Sesión</a></button>
+            </form>
+        </div>
+
+
+
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bienvenido!</h1>
+                    <p>Ingrese sus datos personales para utilizar todas las funciones del sitio</p>
+                    <button class="hidden" id="login">Iniciar Sesión</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hola!</h1>
+                    <p>Regístrese con sus datos personales para utilizar todas las funciones del sitio</p>
+                    <button class="hidden" id="register">Registrase</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <script src="./login.js"></script> 
+</body>
+
+</html>
