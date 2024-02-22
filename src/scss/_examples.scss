@@ -55,7 +55,7 @@
     > .alert + .alert,
     > .navbar + .navbar,
     > .progress + .progress {
-      margin-top: 1rem;
+      margin-top: 2rem;
     }
 
     > .dropdown-menu {
@@ -70,16 +70,16 @@
     // Images
     > svg + svg,
     > img + img {
-      margin-left: .5rem;
+      margin-left: .6rem;
     }
 
     // Buttons
     > .btn,
     > .btn-group {
-      margin: .25rem .125rem;
+      margin: .24rem .115rem;
     }
     > .btn-toolbar + .btn-toolbar {
-      margin-top: .5rem;
+      margin-top: .7rem;
     }
 
     // List groups

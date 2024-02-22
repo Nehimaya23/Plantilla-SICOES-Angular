@@ -13,11 +13,48 @@ export const navItems: INavData[] = [
     children: [
       {
         name: 'Nueva Empresa',
-        url: '/base/accordion'
+        url: '/base',
+        children: [
+          {
+            name: 'Sin fines de lucro ',
+            url: '/base/breadcrumbs'
+          },
+          {
+            name: 'Con fines de lucro',
+            url: '/base/breadcrumbs'
+          },
+          {
+            name: 'Barrios y Colonias',
+            url: '/base/breadcrumbs'
+          },
+
+
+          
+        ]
+
+        
       },
       {
         name: 'Renovación',
-        url: '/base/breadcrumbs'
+        url: '/base/breadcrumbs',
+        children: [
+          {
+            name: 'Sin fines de lucro ',
+            url: '/base/breadcrumbs'
+          },
+          {
+            name: 'Con fines de lucro ',
+            url: '/base/breadcrumbs'
+          },
+          {
+            name: 'Barrios y Colonias',
+            url: '/base/breadcrumbs'
+          },
+
+
+          
+        ]
+
       },
           ]
   },
