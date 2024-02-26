@@ -1,7 +1,7 @@
 import { INavData } from '@coreui/angular';
 
 export const navItems: INavData[] = [
-  
+
   {
     name: 'Menu',
     title: true
@@ -59,15 +59,15 @@ export const navItems: INavData[] = [
   },
   {
     name: 'Blindaje de vehiculos',
-    url: '/buttons',
+    url: '/',
     children: [
       {
         name: '-Nuevo Vehiculo',
-        url: '/buttons/buttons'
+        url: '/forms/layout'
       },
       {
         name: '-Modificación',
-        url: '/buttons/button-groups'
+        url: '/base/tables'
       },
       
     ]

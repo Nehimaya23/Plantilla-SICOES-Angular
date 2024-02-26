@@ -15,14 +15,14 @@ export class DefaultLayoutComponent {
 }
 
 
-@Component({
-  selector: 'app-dashboard',
-  templateUrl: './default-layout2.component.html',
-  styleUrls: ['./default-layout2.component.scss'],
-})
-export class DefaultLayout2Component {
+// @Component({
+//   selector: 'app-dashboard',
+//   templateUrl: './default-layout2.component.html',
+//   styleUrls: ['./default-layout2.component.scss'],
+// })
+// export class DefaultLayout2Component {
 
-  public navItems = navItems;
+//   public navItems = navItems;
 
-  constructor() {}
-}
+//   constructor() {}
+// }

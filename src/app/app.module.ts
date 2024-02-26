@@ -4,6 +4,7 @@ import { BrowserModule, Title } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NgScrollbarModule } from 'ngx-scrollbar';
+// import { LoginComponent } from './views/login/login.component';
 // Import routing module
 import { AppRoutingModule } from './app-routing.module';
 
@@ -15,7 +16,7 @@ import { AppComponent } from './app.component';
 import { DefaultFooterComponent, DefaultHeaderComponent, DefaultLayoutComponent } from './containers';
 
 import {
-  
+
   AvatarModule,
   BadgeModule,
   BreadcrumbModule,
@@ -37,6 +38,7 @@ import {
 } from '@coreui/angular';
 
 import { IconModule, IconSetService } from '@coreui/icons-angular';
+import { LoginComponent } from './views/login/login.component';
 
 const APP_CONTAINERS = [
   DefaultFooterComponent,
@@ -45,9 +47,8 @@ const APP_CONTAINERS = [
 ];
 
 @NgModule({
-  declarations: [AppComponent, ...APP_CONTAINERS],
+  declarations: [AppComponent,...APP_CONTAINERS],
   imports: [
-   
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
