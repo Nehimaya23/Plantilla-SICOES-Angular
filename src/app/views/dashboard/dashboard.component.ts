@@ -4,6 +4,7 @@ import { UntypedFormControl, UntypedFormGroup } from '@angular/forms';
 import { DashboardChartsData, IChartProps } from './dashboard-charts-data';
 
 interface IUser {
+  number: string;
   name: string;
   state: string;
   registered: string;
@@ -27,7 +28,8 @@ export class DashboardComponent implements OnInit {
 
   public users: IUser[] = [
     {
-      name: 'Yiorgos Avraamu',
+      number: '1',
+      name: '',
       state: 'New',
       registered: 'Jan 1, 2021',
       country: 'Us',
@@ -40,6 +42,7 @@ export class DashboardComponent implements OnInit {
       color: 'success'
     },
     {
+      number: '2',
       name: 'Avram Tarasios',
       state: 'Recurring ',
       registered: 'Jan 1, 2021',
@@ -53,6 +56,7 @@ export class DashboardComponent implements OnInit {
       color: 'info'
     },
     {
+      number: '3',
       name: 'Quintin Ed',
       state: 'New',
       registered: 'Jan 1, 2021',
@@ -66,6 +70,7 @@ export class DashboardComponent implements OnInit {
       color: 'warning'
     },
     {
+      number: '4',
       name: 'Enéas Kwadwo',
       state: 'Sleep',
       registered: 'Jan 1, 2021',
@@ -79,6 +84,7 @@ export class DashboardComponent implements OnInit {
       color: 'danger'
     },
     {
+      number: '5',
       name: 'Agapetus Tadeáš',
       state: 'New',
       registered: 'Jan 1, 2021',
@@ -92,7 +98,8 @@ export class DashboardComponent implements OnInit {
       color: 'primary'
     },
     {
-      name: 'Friderik Dávid',
+     number: '6',
+      name: 'Marcos Nehimaya',
       state: 'New',
       registered: 'Jan 1, 2021',
       country: 'Pl',

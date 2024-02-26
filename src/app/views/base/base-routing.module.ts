@@ -71,13 +71,7 @@ const routes: Routes = [
           title: 'List Group',
         },
       },
-      {
-        path: 'navs',
-        component: NavsComponent,
-        data: {
-          title: 'Navs & Tabs',
-        },
-      },
+      
       {
         path: 'pagination',
         component: PaginationsComponent,
@@ -120,13 +114,7 @@ const routes: Routes = [
           title: 'Tables',
         },
       },
-      {
-        path: 'tabs',
-        component: TabsComponent,
-        data: {
-          title: 'Tabs',
-        },
-      },
+      
       {
         path: 'tooltips',
         component: TooltipsComponent,

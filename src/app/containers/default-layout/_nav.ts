@@ -8,24 +8,23 @@ export const navItems: INavData[] = [
   },
   {
     name: 'Empresas de seguridad',
-    url: '/base',
-    iconComponent: { name: '' },
+    iconComponent: { name: 'cil-building' },
     children: [
       {
-        name: 'Nueva Empresa',
-        url: '/base',
+        name: '*Nueva Empresa',
+       
         children: [
           {
-            name: 'Sin fines de lucro ',
-            url: '/base/breadcrumbs'
+            name: '--Sin fines de lucro ',
+            url: '/forms/layout'
           },
           {
-            name: 'Con fines de lucro',
-            url: '/base/breadcrumbs'
+            name: '--Con fines de lucro',
+            url: '/forms/layout'
           },
           {
-            name: 'Barrios y Colonias',
-            url: '/base/breadcrumbs'
+            name: '--Barrios y Colonias',
+            url: '/forms/layout'
           },
 
 
@@ -35,20 +34,20 @@ export const navItems: INavData[] = [
         
       },
       {
-        name: 'Renovación',
-        url: '/base/breadcrumbs',
+        name: '*Renovación',
+        url: '/forms/layout2',
         children: [
           {
             name: 'Sin fines de lucro ',
-            url: '/base/breadcrumbs'
+            url: '/forms/layout2'
           },
           {
             name: 'Con fines de lucro ',
-            url: '/base/breadcrumbs'
+            url: '/forms/layout2'
           },
           {
             name: 'Barrios y Colonias',
-            url: '/base/breadcrumbs'
+            url: '/forms/layout2'
           },
 
 
@@ -61,14 +60,13 @@ export const navItems: INavData[] = [
   {
     name: 'Blindaje de vehiculos',
     url: '/buttons',
-    iconComponent: { name: '' },
     children: [
       {
-        name: 'Nuevo Vehiculo',
+        name: '-Nuevo Vehiculo',
         url: '/buttons/buttons'
       },
       {
-        name: 'Modificación',
+        name: '-Modificación',
         url: '/buttons/button-groups'
       },
       

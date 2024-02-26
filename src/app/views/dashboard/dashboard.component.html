@@ -27,11 +27,10 @@
               <th class="text-center">
                 <svg cIcon name="cilPeople"></svg>
               </th>
-              <th>User</th>
-             
-              <th>Usage</th>
-              
-              <th>Activity</th>
+              <th>Numero Tramite</th>
+              <th>Nombre</th>
+              <th>Fecha</th>
+              <th>TipoTramite</th>
             </tr>
           </thead>
           <tbody>
@@ -43,7 +42,17 @@
                   status="{{ user.status }}"
                 ></c-avatar>
               </td>
+              
+              
               <td>
+                 <c-avatar
+                 
+                >
+                <div>{{user. number}}</div>
+              </c-avatar>
+              </td>
+              <td>
+                
                 <div>{{ user.name }}</div>
                 <div class="small text-medium-emphasis text-nowrap">
                   <span>
@@ -70,10 +79,9 @@
                   ></c-progress-bar>
                 </c-progress>
               </td>
-              
               <td>
-                <div class="small text-medium-emphasis">Last login</div>
-                <div class="fw-semibold text-nowrap">{{ user.activity }}</div>
+                <div class="small text-medium-emphasis">Barrios y Colonias</div>
+                
               </td>
             </tr>
           </tbody>

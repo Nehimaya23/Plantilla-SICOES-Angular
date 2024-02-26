@@ -1525,7 +1525,7 @@ $enable-deprecation-messages: false;
 // scss-docs-end carousel-variables
 
 // scss-docs-start sidebar-variables
-// $sidebar-width:                            16rem;
+$sidebar-width:                           18rem;
 // $sidebar-widths: (
 //   sm: 12rem,
 //   lg: 20rem,
@@ -1540,7 +1540,7 @@ $enable-deprecation-messages: false;
 // $sidebar-transition:                       margin-left .15s, margin-right .15s, box-shadow .075s, transform .15s, width .15s, z-index 0s ease .15s;
 // $sidebar-reliant-transition:               width .15s;
 
-// $sidebar-brand-height:                     4rem;
+// $sidebar-brand-height:                     6rem;
 // $sidebar-brand-color:                      $high-emphasis-light;
 // $sidebar-brand-bg:                         rgba($black, .2);
 
@@ -1550,7 +1550,7 @@ $enable-deprecation-messages: false;
 // $sidebar-header-bg:                        rgba($black, .2);
 // $sidebar-header-height-transition:         height .15s, padding .15s;
 
-// $sidebar-narrow-width:                     4rem;
+$sidebar-narrow-width:                     3rem;
 
 // $sidebar-backdrop-bg:                      $black;
 // $sidebar-backdrop-opacity:                 .5;
@@ -1580,13 +1580,13 @@ $enable-deprecation-messages: false;
 // $sidebar-nav-link-disabled-color:          $disabled-light;
 // $sidebar-nav-link-disabled-icon-color:     $sidebar-nav-link-icon-color;
 
-$sidebar-nav-icon-width:                   3rem;
-// $sidebar-nav-icon-height:                  1.25rem;
+$sidebar-nav-icon-width:                   1rem;
+// $sidebar-nav-icon-height:                  0rem;
 // $sidebar-nav-icon-font-size:               $sidebar-nav-icon-height;
 
 // $sidebar-nav-group-bg:                     rgba(0, 0, 0, .2);
-// $sidebar-nav-group-transition:             background .15s ease-in-out;
-// $sidebar-nav-group-items-transition:       height .15s ease;
+//  $sidebar-nav-group-transition:             background .5s ease-in-out;
+// $sidebar-nav-group-items-transition:       height .5s ease;
 // $sidebar-nav-group-toggle-show-color:      $sidebar-nav-link-color;
 
 // $sidebar-nav-group-indicator-color:        $medium-emphasis-light;

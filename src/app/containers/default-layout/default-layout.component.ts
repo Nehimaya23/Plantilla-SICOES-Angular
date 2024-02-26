@@ -13,3 +13,16 @@ export class DefaultLayoutComponent {
 
   constructor() {}
 }
+
+
+@Component({
+  selector: 'app-dashboard',
+  templateUrl: './default-layout2.component.html',
+  styleUrls: ['./default-layout2.component.scss'],
+})
+export class DefaultLayout2Component {
+
+  public navItems = navItems;
+
+  constructor() {}
+}
